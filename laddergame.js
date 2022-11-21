@@ -1,18 +1,3 @@
-/*
-- 사다리 높이는 4개라고 가정한다.
-
-- 참여 인원과 높이를 매개변수로 받아서 사다리를 출력하는 printLadder() 함수를 구현한다.
-
-- 가로 개수는 참여 인원 - 1, 
-- 세로 개수는 사다리 높이와 동일한 Int 타입 2차원 배열을 만들고
-
-- Math.random으로 랜덤하게 사다리 발판이 있으면 -를 출력하고, 없으면 공백을 출력한다.
-
-발판 사이에는 |로 표시한다.
-
-실행해서 콘솔에 출력되는지 확인한다.
-*/
-
 // Include process module
 const { exit } = require('process');
 const process = require('process');
