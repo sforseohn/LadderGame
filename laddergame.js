@@ -37,8 +37,8 @@ function printRandomLines(arr) {
 }
 
 function printArr(arr) {
-    arr.forEach((value) => {
-        value.forEach((value) => {
+    arr.forEach((subArr) => {
+        subArr.forEach((value) => {
             process.stdout.write(`|${value}`);
         });
         console.log('|\n');
