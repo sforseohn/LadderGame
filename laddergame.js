@@ -41,7 +41,7 @@ function printArr(arr) {
         subArr.forEach((value) => {
             process.stdout.write(`|${value}`);
         });
-        console.log('|\n');
+        console.log('|');
     });
 }
 
